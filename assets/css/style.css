@@ -8,7 +8,7 @@
   --navy-800:#123256;
   --navy-700:#1C4570;
   --navy-600:#2A5686;
-  --brass-600:#9C7327;
+  --brass-600:#8C6823;
   --brass-500:#B98B3E;
   --brass-400:#D1A659;
   --brass-100:#F3E7CE;
@@ -16,7 +16,7 @@
   --paper-dim:#F1EDE4;
   --ink:#14181D;
   --ink-soft:#3C434C;
-  --steel:#6C7480;
+  --steel:#676E7A;
   --line:#E2DDD1;
   --line-dark:rgba(255,255,255,.14);
   --white:#FFFFFF;
@@ -104,7 +104,7 @@ p{margin:0}
   height:84px;
 }
 .brand{display:flex;align-items:center;gap:12px}
-.brand .logo-badge{background:#fff;border-radius:8px;padding:6px 10px;display:flex;align-items:center}
+.brand .logo-badge{background:#fff;border-radius:8px;padding:6px 10px;display:flex;align-items:center;flex-shrink:0}
 .brand img{height:30px;width:auto}
 .brand-text{display:flex;flex-direction:column;line-height:1.25}
 .brand-text strong{font-family:var(--ff-display);font-size:15px;color:#fff;letter-spacing:.01em}
@@ -205,9 +205,10 @@ p{margin:0}
   background:radial-gradient(circle at 35% 30%, rgba(184,139,62,.18), transparent 68%);
   pointer-events:none;
 }
-.hero-dots{display:flex;gap:8px;justify-content:center;margin-top:22px}
-.hero-dots button{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.3);border:0;padding:0}
-.hero-dots button.active{background:var(--brass-400);width:22px;border-radius:6px;transition:width .25s ease}
+.hero-dots{display:flex;gap:6px;justify-content:center;margin-top:14px}
+.hero-dots button{position:relative;width:24px;height:24px;padding:0;border:0;background:transparent;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.hero-dots button::before{content:"";display:block;width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.3);transition:width .25s ease}
+.hero-dots button.active::before{background:var(--brass-400);width:22px;border-radius:6px}
 
 .hero-truss{display:block;width:100%;height:auto}
 
@@ -287,6 +288,7 @@ p{margin:0}
 }
 .cost-card .price small{display:block;font-family:var(--ff-body);font-size:11.5px;font-weight:600;color:var(--steel);text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}
 .cost-note{margin-top:26px;font-size:13.5px;color:var(--steel);max-width:60ch}
+.cost-caption{margin-top:8px;font-size:12.5px;line-height:1.4;color:var(--steel)}
 .cost-cta{margin-top:26px}
 
 /* ---------- Locations ---------- */
@@ -353,7 +355,7 @@ p{margin:0}
 .site-footer{background:var(--navy-950);color:rgba(255,255,255,.7);border-top:1px solid rgba(255,255,255,.08)}
 .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;padding:72px 0 48px}
 .footer-brand .logo-badge{background:#fff;border-radius:8px;padding:10px 14px;display:inline-flex;margin-bottom:18px}
-.footer-brand img{height:34px}
+.footer-brand img{height:34px;width:auto}
 .footer-brand p{font-size:14px;line-height:1.7;color:rgba(255,255,255,.5);max-width:32ch}
 .footer-brand .footer-hours{margin-top:14px;font-size:13px;color:rgba(255,255,255,.65);font-weight:600}
 .footer-brand .social-row{margin-top:16px}
@@ -574,6 +576,11 @@ ul.cross-list li svg{width:18px;height:18px;color:#B14A3C;flex-shrink:0;margin-t
   .inline-portfolio{grid-template-columns:1fr 1fr}
   .main-nav,.header-cta .header-phone{display:none}
   .menu-toggle{display:inline-flex}
+  .brand-text{min-width:0;max-width:108px;overflow:hidden}
+  .brand-text strong{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:13.5px}
+  .brand-text span{display:none}
+  .header-cta{gap:8px}
+  .header-cta .btn{padding:9px 14px;font-size:12px}
   .hero-grid{grid-template-columns:1fr;padding-bottom:48px}
   .hero-visual{order:-1;min-height:300px}
   .blob-shape{max-width:320px}
