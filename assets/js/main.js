@@ -27,7 +27,11 @@
 
   function showSlide(i){
     slides.forEach(function(s,idx){ s.classList.toggle("active", idx === i); });
-    dots.forEach(function(d,idx){ d.classList.toggle("active", idx === i); });
+    dots.forEach(function(d,idx){
+      var isActive = idx === i;
+      d.classList.toggle("active", isActive);
+      if(isActive){ d.setAttribute("aria-current","true"); } else { d.removeAttribute("aria-current"); }
+    });
     current = i;
   }
   function nextSlide(){ showSlide((current + 1) % slides.length); }
