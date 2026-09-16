@@ -22,7 +22,8 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="assets/css/style.css">
 
 <script type="application/ld+json">
@@ -112,7 +113,7 @@
 <!-- ================= HEADER ================= -->
 <header class="site-header">
   <div class="container header-bar">
-    <a href="index.html" class="brand" aria-label="Expo Stalls Fabrication — Home">
+    <a href="index.html" class="brand" aria-label="Expo Stalls Fabrication — Design, Fabrication & Installation — Home">
       <span class="logo-badge"><img src="assets/img/logo.webp" alt="Expo Stalls Fabrication logo" width="150" height="82"></span>
       <span class="brand-text">
         <strong>Expo Stalls Fabrication</strong>
@@ -234,14 +235,14 @@
       <div class="hero-visual">
         <div class="blob-ring" aria-hidden="true"></div>
         <div class="blob-shape" id="heroSlider">
-          <div class="slide active"><img src="assets/img/hero-1.webp" alt="Custom exhibition stall fabricated by Expo Stalls Fabrication for a perfume brand in Pakistan" width="900" height="945" loading="eager"></div>
-          <div class="slide"><img src="assets/img/hero-2.webp" alt="Illuminated exhibition booth design and fabrication by Expo Stalls Fabrication" width="900" height="945" loading="lazy"></div>
-          <div class="slide"><img src="assets/img/hero-3.webp" alt="Wood-finish exhibition stand built by Expo Stalls Fabrication for a tourism brand" width="900" height="945" loading="lazy"></div>
+          <div class="slide active"><img src="assets/img/hero-1.webp" srcset="assets/img/hero-1-sm.webp 480w, assets/img/hero-1.webp 844w" sizes="(max-width:1080px) 320px, 480px" alt="Custom exhibition stall fabricated by Expo Stalls Fabrication for a perfume brand in Pakistan" width="900" height="945" loading="eager" fetchpriority="high"></div>
+          <div class="slide"><img src="assets/img/hero-2.webp" srcset="assets/img/hero-2-sm.webp 480w, assets/img/hero-2.webp 685w" sizes="(max-width:1080px) 320px, 480px" alt="Illuminated exhibition booth design and fabrication by Expo Stalls Fabrication" width="900" height="945" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/hero-3.webp" srcset="assets/img/hero-3-sm.webp 480w, assets/img/hero-3.webp 761w" sizes="(max-width:1080px) 320px, 480px" alt="Wood-finish exhibition stand built by Expo Stalls Fabrication for a tourism brand" width="900" height="945" loading="lazy"></div>
         </div>
       </div>
     </div>
-    <div class="hero-dots" role="tablist" aria-label="Hero image selector">
-      <button class="active" aria-label="Show slide 1"></button>
+    <div class="hero-dots" role="group" aria-label="Hero image selector">
+      <button class="active" aria-label="Show slide 1" aria-current="true"></button>
       <button aria-label="Show slide 2"></button>
       <button aria-label="Show slide 3"></button>
     </div>
@@ -737,6 +738,7 @@
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="case-studies.html">Case Studies</a></li>
         <li><a href="exhibition-stall-cost-pakistan.html">Cost Guide</a></li>
+        <li><a href="blog.html">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
