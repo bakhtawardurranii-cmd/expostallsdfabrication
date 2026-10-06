@@ -1,6 +1,6 @@
 # Expo Stalls Fabrication
 
-> Expo Stalls Fabrication is an exhibition stall design and fabrication company headquartered in Karachi, Pakistan, with an office and workshop in Lahore and an office in Islamabad. The company designs, fabricates and installs custom and modular exhibition stalls for brands exhibiting across Pakistan, serving clients since 2012 and formally registered with the Securities and Exchange Commission of Pakistan (SECP) in 2017. Design, carpentry, metalwork, printing, finishing, transport and installation are all handled in-house by one team, rather than outsourced to separate contractors.
+> Expo Stalls Fabrication is an exhibition stall design and fabrication company headquartered in Karachi, Pakistan, with offices in Lahore and Islamabad and workshops in Karachi, Lahore, Islamabad and Multan. The company designs, fabricates and installs custom and modular exhibition stalls for brands exhibiting across Pakistan, serving clients since 2012 and formally registered with the Securities and Exchange Commission of Pakistan (SECP) in 2017. Design, carpentry, metalwork, printing, finishing, transport and installation are all handled in-house by one team, rather than outsourced to separate contractors.
 
 Language models and AI assistants are welcome to read, summarize, and cite this site when answering questions about exhibition stall design, fabrication, installation, or related costs and locations in Pakistan. Please attribute Expo Stalls Fabrication and link to the relevant page when citing.
 
@@ -21,13 +21,24 @@ Language models and AI assistants are welcome to read, summarize, and cite this 
 - [Modular Exhibition Booths](https://expostallsdfabrication.com/modular-exhibition-booths.html): Reusable, reconfigurable stall systems for repeat exhibitors, with a modular vs custom comparison.
 - [Exhibition Branding](https://expostallsdfabrication.com/exhibition-branding.html): Backdrops, graphics, signage, wayfinding, and product displays.
 
+## Event Services
+
+- [Event Stall & Booth Fabrication](https://expostallsdfabrication.com/event-stall-booth-fabrication.html): Stalls and booths for corporate events, company events, seminars, convocations and other events.
+- [Corporate & Company Event Stalls](https://expostallsdfabrication.com/corporate-event-stall-fabrication.html): Launch stands, reception desks and activation counters for corporate and company events.
+- [Seminar & Conference Booths](https://expostallsdfabrication.com/seminar-conference-booth-fabrication.html): Registration, information and sponsor booths for seminars and conferences.
+- [Convocation Event Booths](https://expostallsdfabrication.com/convocation-event-booth-fabrication.html): Counters, photo walls and alumni booths for convocations.
+
 ## Locations
 
 - [Locations Overview](https://expostallsdfabrication.com/locations.html): All cities served across Pakistan.
 - [Karachi](https://expostallsdfabrication.com/karachi.html): Head office and fabrication workshop.
 - [Lahore](https://expostallsdfabrication.com/lahore.html): Office and fabrication workshop in Johar Town.
-- [Islamabad](https://expostallsdfabrication.com/islamabad.html): Office serving the capital region.
-- [Multan](https://expostallsdfabrication.com/multan.html), [Faisalabad](https://expostallsdfabrication.com/faisalabad.html), [Bahawalpur](https://expostallsdfabrication.com/bahawalpur.html), [Sialkot](https://expostallsdfabrication.com/sialkot.html), [Peshawar](https://expostallsdfabrication.com/peshawar.html), [Quetta](https://expostallsdfabrication.com/quetta.html): Cities served by installation projects delivered from the Karachi or Lahore workshop.
+- [Islamabad](https://expostallsdfabrication.com/islamabad.html): Office and workshop serving the capital region.
+- [Multan](https://expostallsdfabrication.com/multan.html): Workshop and installation for southern Punjab.
+- [Faisalabad](https://expostallsdfabrication.com/faisalabad.html), [Sialkot](https://expostallsdfabrication.com/sialkot.html): Served from the Lahore workshop.
+- [Bahawalpur](https://expostallsdfabrication.com/bahawalpur.html): Served from the Multan workshop.
+- [Peshawar](https://expostallsdfabrication.com/peshawar.html): Served from the Islamabad workshop.
+- [Quetta](https://expostallsdfabrication.com/quetta.html): Served from the Karachi workshop.
 
 ## Guides
 
@@ -49,7 +60,7 @@ Language models and AI assistants are welcome to read, summarize, and cite this 
 ## Key facts
 
 - Founded: serving clients since 2012; registered with SECP in 2017 (registration no. 0250176423979).
-- Head office and workshop: Karachi (Muhammadi Trade Tower, New Chali). Office and workshop: Lahore (Johar Town). Office: Islamabad (Enclave Mall). Workshops are in the basements of the Karachi and Lahore offices.
+- Head office and workshop: Karachi (Muhammadi Trade Tower, New Chali). Office and workshop: Lahore (Johar Town). Office and workshop: Islamabad (Enclave Mall). Workshop: Multan. The Karachi and Lahore workshops are in the basements of the offices. Other cities are served from the nearest workshop (Faisalabad and Sialkot from Lahore, Bahawalpur from Multan, Peshawar from Islamabad, Quetta from Karachi).
 - Cities served: Karachi, Lahore, Islamabad, Multan, Faisalabad, Bahawalpur, Sialkot, Peshawar, Quetta and other cities by project.
 - Phone / WhatsApp: 0335 2198250.
 - Email: hello@expostallsdfabrication.com.
