@@ -614,3 +614,16 @@ ul.cross-list li svg{width:18px;height:18px;color:#B14A3C;flex-shrink:0;margin-t
   .inline-portfolio{grid-template-columns:1fr}
   .breadcrumb-bar{padding-top:100px}
 }
+
+/* WhatsApp floating widget */
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:90;display:inline-flex;align-items:center;gap:10px;height:56px;padding:0 18px 0 14px;border-radius:999px;background:#25D366;color:#fff;font-weight:700;font-size:15px;line-height:1;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.25);transition:transform .2s ease,box-shadow .2s ease}
+.wa-float:hover,.wa-float:focus-visible{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.3);color:#fff}
+.wa-float:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.wa-float svg{width:30px;height:30px;flex:none;display:block}
+.wa-float .wa-label{white-space:nowrap}
+@media (max-width:640px){
+  .wa-float{right:14px;bottom:14px;width:56px;padding:0;justify-content:center}
+  .wa-float .wa-label{display:none}
+}
+.footer-bottom{padding-bottom:84px}
+@media (min-width:641px){.footer-bottom-links{margin-right:170px}}
